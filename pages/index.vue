@@ -14,6 +14,13 @@ const { loggedIn } = useUserSession();
         color="black"
         external
       />
+      <UButton
+        v-else
+        to="/todos"
+        icon="i-heroicons-list-bullet"
+        label="Go to Todos"
+        color="black"
+      />
     </template>
   </UCard>
 </template>

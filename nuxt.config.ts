@@ -7,6 +7,9 @@ export default defineNuxtConfig({
       tasks: true
     }
   },
+  ui: {
+    icons: ['heroicons', 'simple-icons']
+  },
   hub: {
     database: true
   }
