@@ -3,5 +3,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     "@nuxthub/core"
-  ]
+  ],
+  hub: {
+    database: true
+  }
 })
