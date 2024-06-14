@@ -4,6 +4,11 @@ export default defineNuxtConfig({
   modules: [
     "@nuxthub/core"
   ],
+  nitro: {
+    experimental: {
+      tasks: true
+    }
+  },
   hub: {
     database: true
   }
